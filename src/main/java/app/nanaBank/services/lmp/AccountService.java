@@ -50,7 +50,7 @@ public class AccountService implements IAccountService {
 	account.setCustomerId(customer.getCustomerId());
 	account.setAccountName(customer.getName());
 	account.setAccountType(AccountsConstants.ACCOUNT_TYPE_SAVINGS);
-	account.setAccountStatus(AccountsConstants.ACCOUNT_STATUS_ACTIVE);
+ 	account.setAccountStatus(AccountsConstants.ACCOUNT_STATUS_ACTIVE);
 	account.setBranchName(AccountsConstants.BRANCH_NAME);
 	account.setBranchAddress(AccountsConstants.BRANCH_ADDRESS);
 	Long randomNumber = 1000000000L + new Random().nextLong(9000000000L);
